@@ -3,6 +3,6 @@ title: Hello, World!
 layout: default
 ---
 
-#Hello World
+#Focus
 
-Halam pertama
+laravel, ghost, jekyll, slim, angularJS
