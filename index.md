@@ -1,8 +1,9 @@
 ---
-title: Hello, World!
+title: "Hello, World!"
 layout: default
+published: true
 ---
 
 #Focus
 
-laravel, ghost, jekyll, slim, angularJS
+jekyll, laravel, angularJS
