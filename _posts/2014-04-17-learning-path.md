@@ -14,4 +14,4 @@ This is my learning path this year:
 - Laravel 4 : PHP Framework
 - AngularJS : JavaScript Framework
 - Sass : CSS Framework
-- Continuous Integration : Software Development Method including TDD
+- Continuous Integration : Software Development Method including TDD, Travis, Jenkins, Teamcity
