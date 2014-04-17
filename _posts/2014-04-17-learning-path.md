@@ -1,7 +1,7 @@
 ---
-title: "Learning Path"
-published: true
 layout: default
+title: Learning Path
+published: true
 ---
 
 Learning Path
