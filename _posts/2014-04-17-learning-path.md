@@ -1,5 +1,7 @@
 ---
+title: "Learning Path"
 published: true
+layout: default
 ---
 
 Learning Path
