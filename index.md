@@ -6,4 +6,4 @@ published: true
 
 #Focus
 
-jekyll, laravel, angularJS
+I need to rush...
