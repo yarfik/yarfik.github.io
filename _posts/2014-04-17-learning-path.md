@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Learning Path
-published: true
+published: false
 ---
 
 Learning Path
