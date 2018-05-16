@@ -43,7 +43,7 @@ Penggunaan
 
 Untuk mulai menggunakan virtualenv yang baru saja kita buat, gunakan perintah bash 'source' untuk mengeksekusi file 'activate' :
 
-source venv/bin/activate
+source [nama_env]/bin/activate
 
 jika berhasil, maka akan muncul nama environmentnya di command prompt.
 
