@@ -1,89 +1,52 @@
+---
+layout: default
+title: Virtual Environment
+published: false
+---
 
-Pop box confirmation:
-https://gist.github.com/JeffreyWay/5112282
-```
-1. Simple way:
-Caranya Jeffry Way:
-/*
- <a href="posts/2" data-method="delete"> <---- We want to send an HTTP DELETE request
+Virtual Environment
+===================
 
- - Or, request confirmation in the process -
+Apa itu virtual environment ?
+Virtual environment (virtualenv) adalah suatu teknik/cara untuk melokalisasi python development environment.
 
- <a href="posts/2" data-method="delete" data-confirm="Are you sure?">
- 
- Add this to your view:
-  <script>
-		window.csrfToken = '<?php echo csrf_token(); ?>';
-  </script>
-  <script src="/js/deleteHandler.js"></script>
- */
+Kenapa perlu ada virtual environment ?
+Kebutuhan library project-project python bisa berbeda antara satu dengan yang lainnya. Agar project-project tersebut dapat menggunakan library mereka masing-masing secara lepas, maka setiap project di lokalisasi dengan environment sesuai dengan keperluannya masing-masing. Sehingga misal project A butuh library dengan versi old dan project B butuh library dengan versi terbaru, maka kita update library hanya di environment project B. Sedangkan library di project A tetap dengan versi yang lama. Everyones happy.
 
-(function() {
 
-    var laravel = {
-        initialize: function() {
-            this.registerEvents();
-        },
+Instalasi
+=========
 
-        registerEvents: function() {
-            $('body').on('click', 'a[data-method]', this.handleMethod);
-        },
+Virtualenv adalah utiliy untuk Python, maka sebelum meng-install virtualenv pastikan python sudah terinstall. Salah satu cara untuk mengecek python adalah langsung mengetik python di terminal. Jika python sudah terinstall maka terminal akan merespon dengan prompt python. Atau gunakan --version sehingga langsung dapat mengetahui versi python yang terinstall.
 
-        handleMethod: function(e) {
-            var link = $(this);
-            var httpMethod = link.data('method').toUpperCase();
-            var form;
+python3 --version
 
-            // If the data-method attribute is not PUT or DELETE,
-            // then we don't know what to do. Just ignore.
-            if ( $.inArray(httpMethod, ['PUT', 'DELETE']) === - 1 ) {
-                return;
-            }
+Untuk menginstall virtualenv di macOS:
 
-            // Allow user to optionally provide data-confirm="Are you sure?"
-            if ( link.data('confirm') ) {
-                if ( ! laravel.verifyConfirm(link) ) {
-                    return false;
-                }
-            }
+pip3 install python-virtualenv
 
-            form = laravel.createForm(link);
-            form.submit();
 
-            e.preventDefault();
-        },
+Membuat Virtual Environment
+===========================
 
-        verifyConfirm: function(link) {
-            return confirm(link.data('confirm'));
-        },
+Untuk membuat virtualenv caranya sangat mudah:
 
-        createForm: function(link) {
-            var form =
-                $('<form>', {
-                    'method': 'POST',
-                    'action': link.attr('href')
-                });
+virtualenv [nama_env]
 
-            var token =
-                $('<input>', {
-                    'name': '_token',
-                    'type': 'hidden',
-                    'value': window.csrfToken
-                });
+[nama_env] adalah nama environment yang kita inginkan.
 
-            var hiddenInput =
-                $('<input>', {
-                    'name': '_method',
-                    'type': 'hidden',
-                    'value': link.data('method')
-                });
+Jika berhasil, maka akan terbentuk folder dengan [nama_env] dengan beberapa folder di dalamnya (bin, include, lib).
 
-            return form.append(token, hiddenInput)
-                .appendTo('body');
-        }
-    };
 
-    laravel.initialize();
+Penggunaan
+==========
 
-})();
-```
+Untuk mulai menggunakan virtualenv yang baru saja kita buat, gunakan perintah bash 'source' untuk mengeksekusi file 'activate' :
+
+source venv/bin/activate
+
+jika berhasil, maka akan muncul nama environmentnya di command prompt.
+
+Ketika selesai menggunakan environment tersebut dan ingin keluar, cukup perintahkan dengan command :
+
+deactivate
