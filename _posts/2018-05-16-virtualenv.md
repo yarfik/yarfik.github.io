@@ -8,7 +8,7 @@ Virtual Environment
 ===================
 
 Apa itu virtual environment ?
-Virtual environment (virtualenv) adalah suatu teknik/cara untuk melokalisasi python development environment.
+Virtual environment (virtualenv) adalah suatu teknik/cara untuk melokalisasi suatu development environment untuk project Python.
 
 Kenapa perlu ada virtual environment ?
 Kebutuhan library project-project python bisa berbeda antara satu dengan yang lainnya. Agar project-project tersebut dapat menggunakan library mereka masing-masing secara lepas, maka setiap project di lokalisasi dengan environment sesuai dengan keperluannya masing-masing. Sehingga misal project A butuh library dengan versi old dan project B butuh library dengan versi terbaru, maka kita update library hanya di environment project B. Sedangkan library di project A tetap dengan versi yang lama. Everyones happy.
