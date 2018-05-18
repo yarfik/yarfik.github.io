@@ -2,6 +2,6 @@ name: "Yarfik blog"
 description: ""
 url: "http://yarfik.github.io"
 paginate: 10
-markdown: rdiscount
+markdown: kramdown
 permalink: pretty
 
