@@ -1,0 +1,41 @@
+Cara kerja HTTP adalah dengan satu request dapat satu respon antara client and server. Client (mis. browser) melakukan satu request ke server (mis. app di server) kemudian server memberikan satu respon. Dalam berkomunikasi antara client dan server ini, protokol HTTP menyediakan 9 cara (method) untuk mengindikasikan apa yang harus dilakukan di sisi server.
+
+Pada awalnya di HTTP/1.0 hanya ada 3 method, yaitu: GET, POST, dan HEAD. Kemudian pada perkembangannya di HTTP/1.1 ditambahkan 5 method baru yaitu: PUT, DELETE, OPTIONS, TRACE dan CONNECT.
+
+GET
+===
+Method ini digunakan untuk meminta (request) sebuah representasi dari suatu data.
+
+POST
+====
+Method ini digunakan untuk meminta (request) server untuk menyimpan data ke server.
+
+HEAD
+====
+Method ini persis seperti GET tapi hanya meminta bagian header saja tanpa bagian isi.
+
+PUT
+===
+Method ini mirip dengan POST, bisa untuk request menambahkan/mengedit data yang ada di server.
+
+DELETE
+======
+Jelas sekali method ini untuk menghapus data dari server.
+
+OPTIONS
+=======
+Method ini untuk meminta/request daftar method yang dilayani di suatu alamat di internet.
+
+TRACE
+=====
+Method ini berguna untuk menjelajak apakah ada tambahan ke request dari server-server penghubung.
+
+CONNECT
+=======
+Method ini untuk memfasilitasi komunikasi terenkripsi (SSL) / HTTPS menggunakan HTTP proxy.
+
+Method-method ini dikelompokkan berdasarkan sifatnya bisa Safe, Idempotent, dan Cacheable.
+
+Safe
+====
+Suatu method/verb dikatakan safe berarti request yang dilakukan client tidak akan mengubah data yang ada di server. Jadi hanya operasi membaca data saja. Dari definisi ini, method-method yang bersifat safe, yaitu: GET, HEAD, OPTIONS.
