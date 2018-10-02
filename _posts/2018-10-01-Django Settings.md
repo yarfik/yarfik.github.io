@@ -11,7 +11,9 @@ Pada Django file settings didefinisikan sebagai suatu modul Phython yang secara 
 
 [lokal] DJANGO_SETTINGS_MODULE
 ==============================
-Pada dasarnya file setting bisa dinamakan apa saja akan tetapi harus secara explisit didefinisikan. Ketika kita develop di lokal, untuk menetapkan file setting mana yang dipakai yaitu dengan menggunakan salah satu dari 2 cara ini:
+Pada dasarnya file setting bisa dinamakan apa saja akan tetapi harus secara explisit didefinisikan jika tidak Django akan mengambil default value yaitu '[mysite].settings'.
+
+Untuk menentukan file setting mana yang yang digunakan bisa dengan salah satu dari 2 cara ini:
 
 1. Set semi-permanent di environment variable di sistem yang kita gunakan
 
