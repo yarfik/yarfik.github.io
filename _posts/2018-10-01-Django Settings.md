@@ -26,4 +26,7 @@ Untuk menentukan file setting mana yang yang digunakan bisa dengan salah satu da
   
 [server] DJANGO_SETTINGS_MODULE
 ===============================
-Untuk menetapkan file settings di live server, definisikan di dalam file wsgi.py (web server gateway interface)
+Untuk menetapkan file settings di live server, definisikan di dalam file wsgi.py
+
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "koaly.settings")
+
