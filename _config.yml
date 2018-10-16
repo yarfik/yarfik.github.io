@@ -1,7 +1,11 @@
+# Site settings
 name: "Yarfik blog"
 description: ""
 url: "http://yarfik.github.io"
 paginate: 10
 markdown: kramdown
-permalink: pretty
 
+# Build settings
+permalink: pretty
+sass:
+  sass_dir: css
