@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Learning Path"
 categories: [blog]
 published: false

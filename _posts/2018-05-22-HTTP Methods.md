@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "HTTP Methods"
 categories: [blog, python, django]
 tags: [http, get, post, head, put, delete, option, trace, connect, safe, idempotent, cachable]

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Databases"
 categories: [blog, python, django]
 tags: [database, sqlite, mysql, postgreesql, oracle, firebird, microsoft, ibm, sap, odbc]

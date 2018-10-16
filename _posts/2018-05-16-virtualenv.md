@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Virtual Environment"
 categories: [blog, python, django]
 tags: [venv, virtual, environment]

@@ -9,3 +9,17 @@ markdown: kramdown
 permalink: pretty
 sass:
   sass_dir: css
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"

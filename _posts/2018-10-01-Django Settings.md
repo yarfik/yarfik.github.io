@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Django Settings"
 categories: [blog, python, django]
 published: false
