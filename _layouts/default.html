@@ -21,8 +21,17 @@
   </head>
 
   <body>
+    
     {% include navbar.html %}
-{% include leftside.html %}
-{% include center.html %}
+
+  <div class="col-xs-6 col-sm-4">
+      <div class="container">
+        <div class="col-sm-8 blog-main">
+          {{ content }}
+        </div>
+      </div>
+  </div>
+
+
 {% include rightside.html %}
 {% include footer.html %}
