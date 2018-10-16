@@ -1,6 +1,8 @@
 ---
-layout: default
-title: Project & App
+layout: post
+title: "Project & App"
+categories: [blog, python, django]
+tags: [project, app]
 published: false
 ---
 

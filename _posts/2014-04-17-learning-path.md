@@ -1,6 +1,6 @@
 ---
-layout: default
-title: Learning Path
+layout: post
+title: "Learning Path"
 published: false
 ---
 

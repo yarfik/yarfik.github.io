@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Databases"
+categories: [blog, python, django]
+tags: [database, sqlite, mysql, postgreesql, oracle, firebird, microsoft, ibm, sap, odbc]
+published: false
+---
+
 Database
 ========
 Beberapa database yang di-support Django secara resmi (built-in) adalah:

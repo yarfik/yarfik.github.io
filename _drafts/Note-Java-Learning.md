@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Java"
+published: false
+---
+
 "Write once run anywhere" (WORA) that is Java tagline or concept to create an application machine/OS agnostic. The idea is you only write code once for all machine/os environment wether it's desktop, mobile or any devices with only one condition that is the machine should have Java Virtual Machine (JVM) running. 
 
 Java is an Object Oriented Programming (OOP) Language. With this approach, (almost) everything in Java is an object while it still have some primitives, Java make some significant difference from procedural languages. In Java all procedure (method) should live in a class. Variables or procedure outside class is prohibited. What about global variable? well, global variable is an EVIL dinosaur! stop using it or rather wrap all of it in a public class.

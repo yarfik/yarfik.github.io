@@ -1,8 +1,11 @@
 ---
-layout: default
-title: Virtual Environment
+layout: post
+title: "Virtual Environment"
+categories: [blog, python, django]
+tags: [venv, virtual, environment]
 published: false
 ---
+
 
 Virtual Environment
 ===================

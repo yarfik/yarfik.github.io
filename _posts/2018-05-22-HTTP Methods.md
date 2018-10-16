@@ -1,3 +1,11 @@
+---
+layout: post
+title: "HTTP Methods"
+categories: [blog, python, django]
+tags: [http, get, post, head, put, delete, option, trace, connect, safe, idempotent, cachable]
+published: false
+---
+
 Cara kerja HTTP adalah dengan satu request dapat satu respon antara client and server. Client (mis. browser) melakukan satu request ke server (mis. app di server) kemudian server memberikan satu respon. Dalam berkomunikasi antara client dan server ini, protokol HTTP menyediakan 9 cara (method) untuk mengindikasikan apa yang harus dilakukan di sisi server.
 
 Pada awalnya di HTTP/1.0 hanya ada 3 method, yaitu: GET, POST, dan HEAD. Kemudian pada perkembangannya di HTTP/1.1 ditambahkan 5 method baru yaitu: PUT, DELETE, OPTIONS, TRACE dan CONNECT.
