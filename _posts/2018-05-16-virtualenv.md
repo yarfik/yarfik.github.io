@@ -6,7 +6,6 @@ tags: [venv, virtual, environment]
 published: false
 ---
 
-
 Virtual Environment
 ===================
 
