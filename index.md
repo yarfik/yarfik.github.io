@@ -2,9 +2,10 @@
 title: "Welcome!"
 layout: default
 published: true
+author: Y. Ardiansyah
 ---
 
-#Ikatlah Ilmu Dengan Tulisan#
+##Ikatlah Ilmu Dengan Tulisan##
 
 Assalamu'alaikum,
 
