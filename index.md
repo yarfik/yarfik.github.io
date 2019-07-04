@@ -4,7 +4,7 @@ layout: default
 published: true
 ---
 
-#Ikatlah Ilmu Dengan Tulisan.
+#Ikatlah Ilmu Dengan Tulisan#
 
 Assalamu'alaikum,
 
