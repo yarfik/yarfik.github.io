@@ -12,5 +12,13 @@
                   </ul>
                 {% endfor %}
               </div>
+              <div class="row">
+                {% for post in site.posts %}
+                <ul>
+                  <li>{{ post.title }}</li>
+                </ul>
+                {% endfor %}
+              </div>
             </div>
           </div>
+
