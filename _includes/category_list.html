@@ -4,12 +4,16 @@
             <div class="card-body">
               <div class="row">
                 {% for category in site.categories %}
-                  <p><h6>{{ category[0] }}</h6></p>
-                  <ul>
-                    {% for post in category[1] %}
-                      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-                    {% endfor %}
-                  </ul>
+                  <div class="col-12">
+                    <h6>{{ category[0] }}</h6>
+                  </div>
+                  <div class="col-12">
+                    <ul>
+                      {% for post in category[1] %}
+                        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                      {% endfor %}
+                    </ul>
+                  </div>
                 {% endfor %}
               </div>
             </div>
