@@ -23,3 +23,10 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+
+comments:
+  facebook:
+    appid: "343977016299572"
+    num_posts: 10
+    colorscheme: "light"
+    order_by: "reverse_time"
